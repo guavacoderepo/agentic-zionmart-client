@@ -118,7 +118,7 @@ interface ShopPageProps {
   onLogout: () => void;
 }
 
-const ShopPage = ({ user, onLogout }: ShopPageProps) => {
+const ShopPage = ({ user }: ShopPageProps) => {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "ai",
