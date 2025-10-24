@@ -16,9 +16,9 @@ import type {
   UserModel,
 } from "./probs";
 import ReactMarkdown from "react-markdown";
-import { log } from "console";
 
-const url = "/api";
+// const url = "/api";
+const url = "http://165.227.232.26:5000/app";
 
 const LoginPage = ({ onLogin }: LoginPageProps) => {
   const [email, setEmail] = useState("");
