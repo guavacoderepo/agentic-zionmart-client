@@ -100,11 +100,9 @@ const LoginPage = ({ onLogin }: LoginPageProps) => {
         <div className="mt-6 text-center text-sm text-gray-500">
           <p className="mb-2">Try one of these demo accounts:</p>
           <div className="space-y-1">
-            <p className="font-medium text-gray-700">
-              watsonrichard@example.org
-            </p>
-            <p className="font-medium text-gray-700">amythompson@example.net</p>
-            <p className="font-medium text-gray-700">philipavery@example.org</p>
+            <p className="font-medium text-gray-700">gayers@example.net</p>
+            <p className="font-medium text-gray-700">harryolson@example.org</p>
+            <p className="font-medium text-gray-700">jessica59@example.org</p>
           </div>
         </div>
       </div>
