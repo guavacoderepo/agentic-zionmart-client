@@ -17,8 +17,8 @@ import type {
 } from "./probs";
 import ReactMarkdown from "react-markdown";
 
-// const url = "/api";
-const url = "http://165.227.232.26:5000/app";
+const url = "/api";
+// const url = "http://165.227.232.26:5000/app";
 
 const LoginPage = ({ onLogin }: LoginPageProps) => {
   const [email, setEmail] = useState("");
