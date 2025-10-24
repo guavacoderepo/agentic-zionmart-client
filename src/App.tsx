@@ -16,6 +16,7 @@ import type {
   UserModel,
 } from "./probs";
 import ReactMarkdown from "react-markdown";
+import { log } from "console";
 
 const url = "/api";
 
@@ -196,6 +197,8 @@ const ShopPage = ({ user }: ShopPageProps) => {
       if (!res.ok) throw new Error("Failed to get AI response");
 
       const data = await res.json();
+      console.log(data);
+      
       const aiMessage: Message = {
         role: "ai",
         content: data.payload.at(-1)["content"].trim(),
