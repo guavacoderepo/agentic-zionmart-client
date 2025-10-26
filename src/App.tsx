@@ -101,9 +101,9 @@ const LoginPage = ({ onLogin }: LoginPageProps) => {
         <div className="mt-6 text-center text-sm text-gray-500">
           <p className="mb-2">Try one of these demo accounts:</p>
           <div className="space-y-1">
-            <p className="font-medium text-gray-700">gayers@example.net</p>
-            <p className="font-medium text-gray-700">harryolson@example.org</p>
-            <p className="font-medium text-gray-700">jessica59@example.org</p>
+            <p className="font-medium text-gray-700">grant66@example.net</p>
+            <p className="font-medium text-gray-700">harveyryan@example.org</p>
+            <p className="font-medium text-gray-700">davisthomas@example.com</p>
           </div>
         </div>
       </div>
@@ -198,7 +198,7 @@ const ShopPage = ({ user }: ShopPageProps) => {
 
       const data = await res.json();
       console.log(data);
-      
+
       const aiMessage: Message = {
         role: "ai",
         content: data.payload.at(-1)["content"].trim(),
